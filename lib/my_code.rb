@@ -9,6 +9,7 @@ def map(source_array)
 end 
 
 def reduce(source_array, *starting_value)
+  
   if starting_value[0]
     new_value = starting_value[0]
     index = 0 
@@ -16,7 +17,8 @@ def reduce(source_array, *starting_value)
     new_value = source_array[0]
     index = 1 
   end 
-  while index < source_array.index do 
+  
+  while index < source_array.length do 
     new_value = yield(new_value, source_array[index])
     index += 1 
   end 
