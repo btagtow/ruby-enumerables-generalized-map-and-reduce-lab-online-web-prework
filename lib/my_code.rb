@@ -46,5 +46,7 @@
 #   yield (my_new_array)
 # end 
   
+def map(source_array)
+  answer = 
   
   
