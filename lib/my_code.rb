@@ -54,7 +54,6 @@ def map(source_array)
     index += 1 
   end 
   new_array
-  #yield(imma_call_u)
 end 
 
   
