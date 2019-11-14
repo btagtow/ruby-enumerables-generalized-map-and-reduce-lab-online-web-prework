@@ -17,7 +17,7 @@ def reduce(source_array, *starting_value)
     index = 1 
   end 
   while index < source_array.index do 
-    value = yield(new_value, source_array[index])
+    new_value = yield(new_value, source_array[index])
     index += 1 
   end 
   value 
