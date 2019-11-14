@@ -38,13 +38,13 @@
 #   return my_new_array
 # end
 
-def map(source_array)
-  my_new_array = []
-  elements_in_old_array = (source_array).each 
-  negativize = elements_in_old_array * -1
-  my_new_array << (negativize)
-  yield (my_new_array)
-end 
+# def map(source_array)
+#   my_new_array = []
+#   elements_in_old_array = (source_array).each 
+#   negativize = elements_in_old_array * -1
+#   my_new_array << (negativize)
+#   yield (my_new_array)
+# end 
   
   
   
