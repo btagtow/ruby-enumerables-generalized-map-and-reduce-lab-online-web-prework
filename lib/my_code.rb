@@ -22,7 +22,7 @@ def reduce(source_array, *starting_value)
     new_value = yield(new_value, source_array[index])
     index += 1 
   end 
-  value 
+  new_value 
   # new_value = 0
   # index = 0 
   # while index < source_array.length do 
