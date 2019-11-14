@@ -48,7 +48,6 @@
   
 def map(source_array)
   new_array = []
-  #imma_call_u = ()
   index = 0 
   while index < source_array.length do 
     new_array.push(yield(source_array[index]))
