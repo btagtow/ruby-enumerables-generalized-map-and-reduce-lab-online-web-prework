@@ -10,7 +10,9 @@ end
 
 def reduce(source_array, starting_value = 0)
   new_value = ()
-  
+  index = 0 
+  while index < source_array.length do 
+    
   
   
   
