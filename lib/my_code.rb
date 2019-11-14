@@ -8,7 +8,7 @@ def map(source_array)
   new_array
 end 
 
-def reduce(source_array, starting_value*)
+def reduce(source_array, *starting_value)
   if starting_value[0]
     new_value = starting_value[0]
     index = 0 
