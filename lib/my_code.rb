@@ -13,7 +13,7 @@ def reduce(source_array, *starting_value)
     new_value = starting_value[0]
     index = 0 
   else 
-    value = source_array[0]
+    new_value = source_array[0]
     index = 1 
   end 
   while index < source_array.index do 
