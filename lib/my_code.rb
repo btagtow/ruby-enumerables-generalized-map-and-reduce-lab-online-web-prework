@@ -47,6 +47,11 @@
 # end 
   
 def map(source_array)
-  answer = 
+  new_array = []
+  imma_call_u = ()
+  index = 0 
+  while index < source_array.length do 
+    
+    
   
   
