@@ -48,13 +48,14 @@
   
 def map(source_array)
   new_array = []
-  imma_call_u = ()
+  #imma_call_u = ()
   index = 0 
   while index < source_array.length do 
-    imma_call_u = new_array.push(source_array[index*-1])
+    new_array.push(yield(source_array[index]))
     index += 1 
   end 
-  yield(imma_call_u)
+  new_array
+  #yield(imma_call_u)
 end 
 
   
